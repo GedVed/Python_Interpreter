@@ -1,7 +1,7 @@
 
-from interpreter import Toy_Interpreter
+from toy_interpreter import Toy_Interpreter
 
-byte_code_inter = Toy_Interpreter()
+byte_code_toy_inter = Toy_Interpreter()
 
 
 sample_instructions = {
@@ -29,4 +29,4 @@ print(first_value+second+value)
 
 
 
-byte_code_inter.run(sample_instructions)
+byte_code_toy_inter.run(sample_instructions)
